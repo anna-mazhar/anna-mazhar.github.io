@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+    <title>Anna Mazhar - Personal Website</title>
+    <link rel="stylesheet" href="https://latex.vercel.app/style.min.css"> <!-- Ensure this loads first -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"> <!-- Font Awesome -->
+    <link rel="stylesheet" href="style.css"> <!-- Custom styles loaded last -->
+</head>
+
+
+<body id="home">
+
+<!-- Header Navigation -->
+<nav class="navbar">
+    <h1>Anna Mazhar</h1>
+    <div class="nav-links">
+        <a href="#home">Home</a>
+        <a href="../assets/pdfs/my_cv.pdf">CV</a>
+        <a href="#publications">Publications</a>
+        <a href="#projects">Projects</a>
+    </div>
+</nav>
+
+<div class="container">
+    
+  <!-- Main Profile Card -->
+<div class="card main-card" >
+    <div class="profile-info">
+        <div class="info">
+            <p style="margin-top: 0;">
+                Hi! I am Anna, a first-year PhD student at 
+                <a href="#">Cornell University</a>, advised by 
+                <a href="https://sainyamgalhotra.com/">Sainyam Galhotra</a>. 
+                My research spans a wide range of interests focused on rigorous testing 
+                and evaluation techniques to ensure the reliability and correctness 
+                of softwares and machine learning models based on their specifications.
+                <br><br>
+                Before starting at Cornell, I completed my MS in Computer Science at UIUC, 
+                advised by <a href="https://tianyin.github.io">Tianyin Xu</a>. 
+                There, my research centered around cloud systems reliability.
+            </p>
+                
+            <div class="social-icons">
+                <!-- location -->
+                <!-- <div class="description">
+                    <i class="fas fa-map-marker-alt"></i> Ithaca, New York
+                </div> -->
+                <a href="mailto:annam@cs.cornell.edu" aria-label="Email">
+                    <i class="fas fa-envelope"></i> Email
+                </a> &nbsp;
+                <a href="https://github.com/anna-mazhar" aria-label="GitHub">
+                    <i class="fab fa-github"></i> GitHub
+                </a> &nbsp;
+                <a href="https://linkedin.com/in/anna-mazhar" aria-label="LinkedIn">
+                    <i class="fab fa-linkedin"></i> LinkedIn
+                </a> &nbsp;
+            </div>
+        </div>
+        <div class="profile-image-container">
+            <img src="../assets/images/anna.jpg" alt="Profile Image" class="profile-image"> <!-- Placeholder image -->
+            <div class="title">Ph.D. Candidate</div> <div class="university">Cornell University</div>
+            
+        </div>
+        
+    </div>
+</div>
+
+
+<!-- Work and Education Container -->
+<div class="work-education-container">
+    <!-- Work Experience Card -->
+    <div id="work-experience" class="card work-card">
+        <h3>Work Experience</h3>
+
+        <p>
+            <strong>Research Assistant</strong> - <a href="https://github.com/xlab-uiuc">xlab, UIUC</a> <br>
+            <em>Sep. 2022 – May 2024 | USA</em><br>
+            - Local Developer Testing and Cloud Emulation<br>
+            - REST API Analysis of Azure Storage, AWS S3, and DynamoDB<br>
+            - Breaking down Emulator's Fidelity using Differential Fuzzing<br>
+            - Tooling for Testing Cloud-based Software in CI/CD Environments
+        </p>
+
+        <p>
+            <strong>Research Assistant</strong> - <a href="https://lums.edu.pk/">Networks and Systems Group, LUMS</a> <br>
+            <em>Jun. 2020 – May 2022 | Pakistan</em><br>
+            - Webpage Load Performance Testing on Low-end Devices<br>
+            - Tooling for Reducing Webpage Complexity<br>
+            - Lighthouse, Puppeteer, and WebPageTest
+        </p>
+
+        <p>
+            <strong>Research Intern</strong> - <a href="https://dlab.epfl.ch/">dlab, EPFL</a> <br>
+            <em>Jun. 2021 – Dec. 2021 | Switzerland</em><br>
+            - Natural Language Processing (NLP)<br>
+            - React Web Development
+        </p>
+    </div>
+
+    <!-- Education Card -->
+    <div id="education" class="card education-card">
+        <h3>Education</h3>
+        <ul>
+            <li><strong>Cornell University</strong><span class="date">(2024 – Present)</span><br>Ph.D. in Computer Science </li>
+            <li><strong>UIUC</strong><span class="date">(2022 – 2024)</span><br>MS in Computer Science </li>
+            <li><strong>LUMS</strong><span class="date">(2018 – 2022)</span><br>BS in Computer Science </li>
+        </ul>
+
+        <!-- <h3>Interests</h3>
+        <ul>
+            <li style="list-style-type: disc;"><strong>Machine Unlearning</strong></li>
+            <li style="list-style-type: disc;"><strong>Software Testing</strong></li>
+            <li style="list-style-type: disc;"><strong>Cloud Storage</strong></li>
+        </ul> -->
+
+        <!-- Cute Sticker Image -->
+        <img src="../assets/images/cat.png" alt="Cute Sticker" class="sticker">  
+    </div>
+
+</div>
+
+
+
+<!-- Publications Card -->
+<div class="card" id="publications">
+    <h3>Publications</h3>
+    <p>
+        <strong>Fidelity of Cloud Emulators: The Imitation Game of Testing Cloud-based Software</strong> 
+        <a href="https://www.microsoft.com/en-us/research/publication/fidelity-of-cloud-emulators-the-imitation-game-of-testing-cloud-based-software/">[pdf]</a> | <a href="https://www.microsoft.com/en-us/research/publication/fidelity-of-cloud-emulators-the-imitation-game-of-testing-cloud-based-software/bibtex/">[bib]</a> 
+        <br>
+        <a href="https://anna-mazhar.github.io">Anna Mazhar</a>, Saad Sher Alam, William Zheng, Yinfang Chen, Suman Nath, and Tianyin Xu
+        <br>
+        <em><strong>International Conference on Software Engineering (ICSE)</strong> | April 2025.</em>
+    </p>
+      
+</div>
+
+<!-- Selected Projects Card -->
+<div class="card" id="projects">
+    <h3>Selected Projects</h3>
+    <ul>
+        <li><strong>Testing for Machine Unlearning</strong> | Pandas, NumPy, scikit-learn, SHAP <span class="date">(Sep. 2024 - Present)</span><br>
+        Developing a suite to assess feature unlearning in ML models, evaluating existing metrics for accuracy and limitations.</li>
+        
+        <li><strong>Verifying Cloud Block Storage in Coq</strong> | Coq <span class="date">(Oct. 2024 - Present)</span><br>
+        Developing a Coq-based verification framework using separation logic to model cloud storage properties.</li>
+        
+        <li><strong>Multi-Writer Multi-Reader Shared Registers</strong> | Go, gRPC, Protobuf <span class="date">(Apr. 2023 - May 2023)</span><br>
+        Implemented a MWMR Shared Register protocol with fault tolerance and data consistency through quorum-based operations.</li>
+        
+        <li><strong>Raft</strong> | Go <span class="date">(Oct. 2021 – Nov. 2021)</span><br>
+        Built a fault-tolerant key-value storage service using the Raft consensus algorithm for log replication and leader election.</li>
+        
+        <li><strong>QuestSpace</strong> | ReactJS, MongoDB, ExpressJS, Node.js, AWS <span class="date">(Feb. 2021 – Apr. 2021)</span><br>
+        Developed a MERN-stack web app for hosting competitions with quizzes, rapid-fire, and submission rounds.</li>
+    </ul>
+</div>
+
+<!-- Selected Awards Card -->
+<div class="card" id="awards">
+    <h3>Selected Awards</h3>
+    <ul>
+        <li><strong>Erasmus Mundus Scholarship</strong> (€49000) - Awarded to 26 applicants out of 735.</li>
+        <li><strong>LUMS Merit Scholarship Award</strong> (5000 USD) - For academic excellence.</li>
+        <li><strong>Dean’s Honor List (LUMS)</strong> - Recognized three consecutive times for academic performance.</li>
+    </ul>
+</div>
+
+
+    <footer>
+        <p>&copy; Anna Mazhar, 2024. All rights reserved.</p>
+    </footer>
+</div>
+
+</body>
+</html>
