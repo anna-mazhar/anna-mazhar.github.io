@@ -30,7 +30,7 @@ body {
     flex-wrap: wrap;
     padding: 10px 20%;
     border-bottom: 1px solid #ddd;
-    margin-bottom: 20px;
+    /* margin-bottom: 20px; */
 }
 
 .navbar h1 {
@@ -157,7 +157,7 @@ body {
     font-size: 0.87em;
     color: #555;
     float: right;
-    margin-top: 1px;
+    margin-top: 1.5px;
 }
 
 /* Typography */
@@ -194,11 +194,11 @@ footer {
         flex-direction: column;
     }
     
-    .date {
+    /* .date {
         float: none;
         display: block;
         margin-top: 5px;
-    }
+    } */
 }
 
 @media (max-width: 600px) {
