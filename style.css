@@ -140,7 +140,7 @@ body {
 
 /* Social Icons */
 .social-icons {
-    padding: 10px 0;
+    padding-top: 10px;
     display: flex;
     margin-top: 10px;
     gap: 15px;
