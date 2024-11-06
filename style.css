@@ -65,6 +65,10 @@ body {
     gap: 20px;
 }
 
+ul{
+    padding-inline-start: 20px;
+}
+
 /* Location Icon Styling */
 .description i {
     margin-right: 5px;
@@ -125,6 +129,10 @@ body {
 
 .education-card li {
     margin-bottom: 15px;
+}
+
+.work-exp-p{
+    text-align: left;
 }
 
 /* Cards */
